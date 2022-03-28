@@ -6,6 +6,8 @@ window.addEventListener("load", () => {
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
+    error.textContent = "";
+
     if (name1.value && cost.value) {
       const item = {
         name: name1.value,
