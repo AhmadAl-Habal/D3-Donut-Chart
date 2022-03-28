@@ -150,6 +150,13 @@ const legend = d3
   .shapePadding(10)
   .scale(colour);
 
+// const tip = d3
+//   .tip()
+//   .attr("class", "tip card")
+//   .html((d) => {
+//     return `<p>Hello there</p>`;
+//   });
+// graph.call(tip);
 // update function
 const update = (data) => {
   // update colour scale domain
